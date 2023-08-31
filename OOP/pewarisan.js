@@ -45,3 +45,6 @@ console.log(whatsapp instanceof MailService); // true
 console.log(email instanceof EmailService); // true
 console.log(email instanceof WhatsAppService); // false
 console.log(email instanceof MailService); // true
+
+const mailService = new MailService('someReceiver');
+console.log(mailService);
