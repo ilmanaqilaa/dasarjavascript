@@ -40,3 +40,8 @@ email.sendDelayedMessage('Hello', 'john@doe.com', 3000);
 
 console.log(whatsapp instanceof WhatsAppService); // true
 console.log(whatsapp instanceof EmailService); // false
+console.log(whatsapp instanceof MailService); // true
+ 
+console.log(email instanceof EmailService); // true
+console.log(email instanceof WhatsAppService); // false
+console.log(email instanceof MailService); // true
